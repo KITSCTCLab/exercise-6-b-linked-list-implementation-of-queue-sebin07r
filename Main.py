@@ -1,3 +1,4 @@
+
 class Node:
   def __init__(self, data):
     self.data = data
@@ -32,3 +33,4 @@ for i in range(len(operations)):
   elif operations[i] == "dequeue":
     queue.dequeue()
 queue.status()
+
